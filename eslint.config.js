@@ -10,12 +10,7 @@ const includedFiles = ['**/*.{js,ts,jsx,tsx}'];
 
 export default [
     {
-        ignores: [
-            '**/node_modules/',
-            '**/.git/',
-            '**/.idea/',
-            '**/dist/',
-        ],
+        ignores: ['**/node_modules/', '**/.git/', '**/.idea/', '**/dist/'],
     },
     {
         languageOptions: {
