@@ -1,7 +1,7 @@
 {
-  "name": "react-application",
+  "name": "open-admin",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "lint": "eslint .",
@@ -36,5 +36,8 @@
     "typescript": "5.5.4",
     "typescript-eslint": "^8.5.0",
     "vite": "^5.4.5"
+  },
+  "engines": {
+    "node": "18.17.0"
   }
 }
